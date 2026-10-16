@@ -1,0 +1,4 @@
+# kikai.games redirects to kikaistudios.com on the web (a Cloudflare Redirect Rule); this holding
+# page is not meant to be indexed: its pages say noindex, so its sitemap lists nothing and is not named here.
+User-agent: *
+Allow: /

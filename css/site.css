@@ -1,0 +1,15 @@
+.games-name{font:400 20px/1 var(--f-pxd);color:var(--fg)}
+.studio-brand{padding:20px 0}
+.px-title{font:400 40px/1 var(--f-pxd);letter-spacing:0}
+@media (min-width:600px){.px-title{font-size:60px}}
+.hold{display:grid;align-content:center}
+.hold-in{display:grid;gap:var(--s6);padding-block:var(--s6)}
+.lane-wrap{width:100%}
+.lane{position:relative;width:100%;display:grid;place-items:end center;padding:56px 0 44px;--kun:4}
+.lane::after{content:"";position:absolute;left:0;right:0;bottom:42px;height:2px;background:rgba(106,112,124,.35)}
+.lane .kun-live{position:relative;z-index:1}
+@media (max-width:600px){.lane{--kun:3;padding-top:48px}}
+.hold-copy{display:grid;justify-items:center;text-align:center}
+.hold-copy .px-title{margin-top:var(--s3)}
+.hold-copy .lede{margin-top:var(--s4)}
+.hold-copy .btns{margin-top:var(--s5);justify-content:center}
